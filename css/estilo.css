@@ -1,0 +1,154 @@
+@font-face{
+    font-family: Milku;
+    src: url(../Fonts/Milku.otf);
+}
+
+@font-face{
+    font-family: Fortune;
+    src: url(../Fonts/Fortune.otf);
+}
+
+@font-face{
+    font-family: DustyPeach;
+    src: url(../Fonts/DustyPeach.otf);
+}
+
+*{margin: 0; padding: 0;}
+
+html{background: #000;}
+
+body{
+    width: 750px; height: 1000px;
+    margin: auto; background: #eea8a8;
+}
+
+section#banner{
+    width: 250px; height: 250px;
+    font-family: Milku;
+    float: left;
+    background: #a8daee;
+}
+
+section#logo{
+    width: 250px; height: 250px;
+    font-family: Fortune;
+    float: left;
+    background: #a8eeab;
+}
+
+section#login{
+    width: 250px; height: 250px;
+    font-family: DustyPeach;
+    float: right;
+    background: #eee7a8;
+}
+
+.caja{
+    position: relative;
+    display: inline-block;
+}
+
+#uno{
+    position: absolute;
+    top: 20px; left: 5%;
+}   
+
+#dos{
+    position: absolute;
+    top: 20px; left: 5%;
+    font-size: 200%; /*Borrar*/
+}
+
+#tres{
+    position: absolute;
+    top: 20px; left: 5%;
+    font-size: 150%; /*Borrar*/
+}
+
+/*Dos*/
+
+nav{
+    width: 750px; height: 250px;
+    background: #5082dd;
+    color: #ffdb11;
+    font-family: Milku;
+    font-size: 20px;
+}
+
+section#inicio{
+    width: 250px; height: 250px;
+    float: left;
+    background: #ff7300;
+}
+
+section#producto{
+    width: 250px; height: 250px;
+    float: left;
+    background: #ac475d;
+}
+
+section#contacto{
+    width: 250px; height: 250px;
+    float: left;
+    background: #56aeb9;
+}
+
+/*Tres*/
+
+main{
+    width: 750px; height: 250px;
+    font-size: 20px;
+    color: #18f723;
+    font-size: DustyPeach;
+}
+
+aside#hoy{
+    width: 250px; height: 250px;
+    float: left;
+    background: #0e4fc7;
+    font-family: DustyPeach;
+}
+
+article#novedades{
+    width: 250px; height: 250px;
+    float: left;
+    background: #c70e36;
+    font-family: DustyPeach;
+}
+
+aside#internacional{
+    width: 250px; height: 250px;
+    float: left;
+    background: #3c2572;
+    font-family: DustyPeach;
+}
+
+/*Footer*/
+
+footer{
+    width: 750px; height: 250px;
+    font-size: 200%;
+    color: #e4e4e4;
+    font-size: Fortune;
+}
+
+aside#F1{
+    width: 250px; height: 250px;
+    float: left;
+    background: #1f1e1e;
+    font-family: Fortune;
+}
+
+article#F2{
+    width: 250px; height: 250px;
+    float: left;
+    background: #2b2b2b;
+    font-family: Fortune;
+}
+
+aside#F3{
+    width: 250px; height: 250px;
+    float: left;
+    background: #45424d;
+    font-family: Fortune;
+}
